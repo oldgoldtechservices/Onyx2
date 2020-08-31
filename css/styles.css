@@ -113,8 +113,7 @@ p {
   /* width:100%; */
   height:350px;
   text-align: center;
-  /*background-image: url('../images/OEwhitebackground.png');*/
-  background-image: url('OEwhitebackground.png');
+  background-image: url('../images/OEwhitebackground.png');
   background-repeat:no-repeat;
   background-position:center;
   background-size:100% auto;
