@@ -114,7 +114,7 @@ p {
   height:350px;
   text-align: center;
   /*background-image: url('../images/OEwhitebackground.png');*/
-  background-image: url('https://github.com/oldgoldtechservices/Onyx2/raw/master/images/OEwhiteBackground.png');
+  background-image: url('https://raw.githubusercontent.com/oldgoldtechservices/Onyx2/master/images/OEwhiteBackground.png');
   background-repeat:no-repeat;
   background-position:center;
   background-size:100% auto;
