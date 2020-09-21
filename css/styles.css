@@ -63,9 +63,8 @@ p {
 
 .booking-button{
   color:black;
-  /* background-color:#9CB392; */
-  background-color: #91D18B;
-  /* background-color: #ade498; */
+  /* background-color: #91D18B; */
+  background-color:#FF69B4;
   font-family: 'Montserrat';
   font-size:1.5rem;
   font-weight: bold;
