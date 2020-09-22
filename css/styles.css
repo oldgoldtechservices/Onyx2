@@ -1,6 +1,7 @@
-a{
-  text-align:center;
+a {
+  text-align: center;
 }
+
 body {
   font-family: "Montserrat";
   text-align: center;
@@ -8,46 +9,47 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat";
-  padding-top:15px;
-  text-align:center;
+  padding-top: 15px;
+  text-align: center;
 }
 
 p {
-  color: #8f8f8f;
+  color: #black;
+  font-size: 1.2rem;
 }
 
 /* Containers */
-
-.container-fluid{
+.container-fluid {
   padding: 5% 15%;
 }
 
-#photo .container-fluid{
+#photo .container-fluid {
   padding: 0%
 }
 
 /* Home Page */
-.hover-gray:hover{
+.hover-gray:hover {
   background-color: #2C2C2D;
   /* background-color: #9CB392; */
 }
-.leftside, .rightside{
-  height:50vh;
-  width:100%;
+
+.leftside, .rightside {
+  height: 50vh;
+  width: 100%;
 }
 
-@media screen and (min-width:768px){
-  .leftside, .rightside{
-    height:100vh;
+@media screen and (min-width:768px) {
+  .leftside, .rightside {
+    height: 100vh;
   }
 }
 
-.leftside{
-  background:white;
+.leftside {
+  background: white;
 }
 
-.rightside{
-  background:black;
+.rightside {
+  background: black;
 }
 
 .title-image {
@@ -57,72 +59,90 @@ p {
 }
 
 /* Entertainment Home Page */
-.attribution{
-  font-size:0.8rem;
+.attribution {
+  font-size: 0.8rem;
 }
 
-.booking-button{
-  color:black;
-  /* background-color: #91D18B; */
-  background-color:#FF69B4;
+.booking-button {
+  color: black;
+  background-color: #91D18B;
+  /* background-color:#FF69B4; */
   font-family: 'Montserrat';
-  font-size:1.5rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
-.booking-button:hover{
-  background-color:#587850;
-  color:black;
+.booking-button:hover {
+  background-color: #587850;
+  color: black;
 }
 
-.dark-gray-section{
+.card {
+  background-color: #DDDDDD;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-img-top {
+  height: 130px;
+  width: 130px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.dark-gray-section {
   background-color: #1A1A1A;
   color: #white;
 }
 
-.DJ-icon{
+.DJ-icon {
   /* width:100%; */
-  height:100px;
-  width:100px;
+  height: 100px;
+  width: 100px;
   text-align: center;
   background-image: url('https://img.icons8.com/ios-filled/100/1A1A1A/dj.png');
-  background-repeat:no-repeat;
-  background-position:center;
+  background-repeat: no-repeat;
+  background-position: center;
   /* background-position:right; */
-  background-size:100% auto;
+  background-size: 100% auto;
 }
 
-.DJ-icon:hover{
+.DJ-icon:hover {
   background-image: url('https://img.icons8.com/ios-filled/100/587850/dj.png');
 }
 
-.DJ-video{
+.DJ-video {
   max-width: 100%;
   height: auto;
 }
 
-.header-dj{
+.header-dj {
   /* width:100%; */
-  height:350px;
+  height: 350px;
   text-align: center;
   background-image: url('../images/danceParty.jpg');
   /* background-image: url('https://raw.githubusercontent.com/oldgoldtechservices/Onyx2/master/images/danceParty.jpg'); */
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size:100% auto;
-  padding-top:25%;
-  padding-bottom:25%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  padding-top: 25%;
+  padding-bottom: 25%;
 }
 
-.header-dj-text{
+.header-dj-text {
   /* color:#9CB392; */
-  color:#91D18B;
+  color: #91D18B;
   font-family: 'Pacifico', cursive;
   /* text-align:center; */
 }
 
-.dropdown-menu{
-  background: rgba(2,2,2,0.8);
+.dropdown-menu {
+  background: rgba(2, 2, 2, 0.8);
 }
 
 .feature-title {
@@ -134,18 +154,18 @@ p {
   margin-left: 2 rem;
   margin-right: 2 rem;
   padding: 2%;
-  text-align:center;
+  text-align: center;
 }
 
-.footer-heading{
+.footer-heading {
   color: #8f8f8f;
-  font-weight:bold;
-  padding-top:15px;
-  text-align:center;
+  font-weight: bold;
+  padding-top: 15px;
+  text-align: center;
 }
 
-.footer-image{
-  height:7rem;
+.footer-image {
+  height: 7rem;
 }
 
 .gray-section {
@@ -153,161 +173,164 @@ p {
   color: #black;
 }
 
-.hair-icon{
+.hair-icon {
   /* width:100%; */
-  height:100px;
-  width:100px;
+  height: 100px;
+  width: 100px;
   text-align: center;
   background-image: url('https://img.icons8.com/ios-filled/100/1A1A1A/hair-brush.png');
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size:100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
 }
 
-.hair-icon:hover{
+.hair-icon:hover {
   background-image: url('https://img.icons8.com/ios-filled/100/587850/hair-brush.png');
+  /* background-image: url('https://img.icons8.com/ios-filled/100/91D18B/hair-brush.png'); */
 }
 
-.header-entertainment{
+.header-entertainment {
   /* width:100%; */
-  height:350px;
+  height: 350px;
   text-align: center;
-  background-image: url('../images/OEwhitebackground.png');
-  /* background-image: url('https://raw.githubusercontent.com/oldgoldtechservices/Onyx2/master/images/OEwhiteBackground.png'); */
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size:100% auto;
+/*   background-image: url('../images/OEwhitebackground.png'); */
+  background-image: url('https://raw.githubusercontent.com/oldgoldtechservices/Onyx2/master/images/OEwhiteBackground.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
 }
 
-.image-85{
-  border:10px solid white;
-  height:500px;
+.image-85 {
+  border: 10px solid white;
+  height: 500px;
 }
 
-.image-white-border{
-  border:10px solid white;
-  height:20rem;
+.image-white-border {
+  border: 10px solid white;
+  /* height:20rem; */
+  max-width: 70%;
+  height: auto;
 }
 
-.lighting-icon{
+.lighting-icon {
   /* width:100%; */
-  height:100px;
-  width:100px;
+  height: 100px;
+  width: 100px;
   text-align: center;
   background-image: url('https://img.icons8.com/ios-filled/100/1A1A1A/source-four-par.png');
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size:100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
 }
 
-.lighting-icon:hover{
+.lighting-icon:hover {
   background-image: url('https://img.icons8.com/ios-filled/100/587850/source-four-par.png');
 }
 
-.photobooth-icon{
+.photobooth-icon {
   /* width:100%; */
-  height:100px;
-  width:100px;
+  height: 100px;
+  width: 100px;
   text-align: center;
   background-image: url('https://img.icons8.com/ios-filled/100/1A1A1A/selfie-booth.png');
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size:100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
 }
 
-.photobooth-icon:hover{
+.photobooth-icon:hover {
   background-image: url('https://img.icons8.com/ios-filled/100/587850/selfie-booth.png');
 }
 
-.photography-icon{
+.photography-icon {
   /* width:100%; */
-  height:100px;
-  width:100px;
+  height: 100px;
+  width: 100px;
   text-align: center;
   background-image: url('https://img.icons8.com/pastel-glyph/100/1A1A1A/compact-camera.png');
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size:100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
 }
 
-.photography-icon:hover{
+.photography-icon:hover {
   background-image: url('https://img.icons8.com/pastel-glyph/100/587850/compact-camera.png');
 }
 
-.services-icon:hover{
-  color:white;
+.services-icon:hover {
+  color: white;
 }
 
-.star{
-  color:#1A1A1A;
+.star {
+  color: #1A1A1A;
 }
 
-.top-spacing{
-  padding-top:20px;
+.top-spacing {
+  padding-top: 20px;
 }
 
-.videography-icon{
+.videography-icon {
   /* width:100%; */
-  height:100px;
-  width:100px;
+  height: 100px;
+  width: 100px;
   text-align: center;
   background-image: url('https://img.icons8.com/ios-filled/100/1A1A1A/camcorder-pro.png');
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size:100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
 }
 
-.videography-icon:hover{
+.videography-icon:hover {
   background-image: url('https://img.icons8.com/ios-filled/100/587850/camcorder-pro.png');
 }
 
-.wedding-image{
+.wedding-image {
   /* width: 85%; */
-  border:10px solid #DDDDDD;
-  height:200px;
-  width:300px;
+  border: 10px solid #DDDDDD;
+  height: 200px;
+  width: 300px;
   /* padding:5px; */
   /* position: absolute; */
 }
 
-.yard-games-icon{
+.yard-games-icon {
   /* width:100%; */
-  height:100px;
-  width:100px;
+  height: 100px;
+  width: 100px;
   text-align: center;
   background-image: url('https://img.icons8.com/ios-filled/100/1A1A1A/bocce.png');
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size:100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
 }
 
-.yard-games-icon:hover{
+.yard-games-icon:hover {
   background-image: url('https://img.icons8.com/ios-filled/100/587850/bocce.png');
 }
 
 /* Recording Studio Home Page */
 /* header/navigation bar*/
-.header{
+.header {
   /* width:100%; */
-  height:350px;
+  height: 350px;
   text-align: center;
   background-image: url('../images/ORwhitebackground.png');
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size:100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
 }
 
-.nav-item{
-font-size: 30px;
+.nav-item {
+  font-size: 30px;
 }
 
-.nav-link{
-font-size: 30px;
+.nav-link {
+  font-size: 30px;
 }
 
-.navbar{
-  background: rgba(2,2,2,0.8);
-  position:fixed;
+.navbar {
+  background: rgba(2, 2, 2, 0.8);
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
@@ -319,29 +342,30 @@ font-size: 30px;
   background-color: #000;
 }
 
-.navbar-toggler-icon{
-font-size: 40px;
+.navbar-toggler-icon {
+  font-size: 40px;
 }
 
-.derek-studio-photo{
-  height:350px;
+.derek-studio-photo {
+  height: 350px;
   text-align: center;
   background-image: url('../images/recordingStudioHomePhoto.png');
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size:100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
 }
 
 /* The following two classes change the color of the carousel arrows to black (default is white) */
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
+
 .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
 /* This class centers the picture of the recording studio */
-.centered{
+.centered {
   margin: 0 auto 0 auto;
 }
 
@@ -351,15 +375,14 @@ font-size: 40px;
 }
 
 /* Features Section */
-
 #features {
   position: relative;
 }
 
 .feature-title {
   font-size: 1.5rem;
-  font-weight:bold;
-  padding-top:5px;
+  font-weight: bold;
+  padding-top: 5px;
 }
 
 .icon {
@@ -369,7 +392,7 @@ font-size: 40px;
 
 .icon:hover {
   /* color: #9CB392; */
-  color:#91D18B;
+  color: #91D18B;
 }
 
 .logo {
@@ -377,21 +400,24 @@ font-size: 40px;
   left: 30%;
 }
 
-
-
 /* This class sets the size of the recording studio photo */
-.recording-photo{
+.recording-photo {
   width: 35%;
 }
 
 .studio-photo {
-  background-image: url('../images/pianoAndRecord.png'); /* The image used */
-  background-color: white; /* Used if the image is unavailable */
-  height: 500px; /* You must set a specified height */
-  width: 100%
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url('../images/pianoAndRecord.png');
+  /* The image used */
+  background-color: white;
+  /* Used if the image is unavailable */
+  height: 500px;
+  /* You must set a specified height */
+  width: 100% background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
 }
 
 .testimonial-text {
@@ -417,22 +443,21 @@ font-size: 40px;
 }
 
 @media (max-width: 1028px) {
-
   #title {
     text-align: center;
   }
 
-/*Entertainment Pages*/
-.black-background{
-  background-color: black;
-}
+  /*Entertainment Pages*/
+  .black-background {
+    background-color: black;
+  }
 
-/* Socials and Attribution */
-.attribution{
-padding: 100px;
-}
+  /* Socials and Attribution */
+  .attribution {
+    padding: 100px;
+  }
 
-/* attritbution footer */
-.white-section {
-  background-color: #white;
-}
+  /* attritbution footer */
+  .white-section {
+    background-color: #white;
+  }
