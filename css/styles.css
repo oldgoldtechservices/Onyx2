@@ -299,6 +299,13 @@ p {
   height: 500px;
 }
 
+.image-gray-border {
+  border: 10px solid #DDDDDD;
+  /* height:20rem; */
+  max-width: 70%;
+  height: auto;
+}
+
 .image-white-border {
   border: 10px solid white;
   /* height:20rem; */
