@@ -125,7 +125,9 @@ p {
 }
 
 .dj-bio-photo {
-  height: 350px;
+  /* height: 350px; */
+  max-height:350px;
+  max-width:100%;
   border: 10px solid #DDDDDD;
   margin: auto;
 }
