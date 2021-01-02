@@ -71,8 +71,10 @@ p {
 /* Entertainment Home Page */
 .attribution {
   font-size: 0.8rem;
+  color: #8f8f8f;
+  text-align:center;
+  margin:auto;
 }
-
 .bold {
   font-weight: bold;
 }
@@ -638,12 +640,6 @@ p {
 /*Entertainment Pages*/
 .black-background {
   background-color: black;
-}
-
-/* Socials and Attribution */
-.attribution {
-  color: #8f8f8f;
-  padding: 100px;
 }
 
 /* attritbution footer */
