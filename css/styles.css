@@ -350,7 +350,7 @@ p {
 .image-white-border {
   border: 10px solid white;
   /* height:20rem; */
-  max-width: 70%;
+  max-width: 90%;
   height: auto;
 }
 
