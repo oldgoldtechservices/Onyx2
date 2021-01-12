@@ -398,7 +398,7 @@ p {
   max-height: 800px;
   width: 100%;
   padding: 8px;
-/*   object-fit: contain; */
+  object-fit: contain;
 /*   object-fit:cover; */
 }
 
