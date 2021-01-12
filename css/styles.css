@@ -266,8 +266,8 @@ p {
 }
 
 .header-photography-text {
-/*   color: #91D18B; */
-  color: #ff8585;
+  color: #91D18B;
+/*   color: #ff8585; */
   font-family: 'Indie Flower', cursive;
   font-size: 3.2rem;
   font-weight:bold;
@@ -391,15 +391,14 @@ p {
   width: auto;
   max-width: 100%;
   padding: 8px;
-/*   object-fit: cover; */
+  object-fit: cover;
 }
 
 .photography-class-single-photo {
   max-height: 800px;
   width: 100%;
   padding: 8px;
-  object-fit: contain;
-/*   object-fit:cover; */
+  object-fit: fill;
 }
 
 .photobooth-icon {
