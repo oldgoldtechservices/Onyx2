@@ -31,6 +31,7 @@
 </head>
 
 <body>
+  <div class="position-absolute">
   <!-- Add Javascript to Project -->
   <script src="index.js" charset="utf-8"></script>
   <!-- Nav Bar -->
@@ -92,49 +93,50 @@
 
       <!-- photo row -->
       <div class="d-flex">
-        <div class="d-inline-flex" data-target=”#carouselExample”>
-          <img class="photo-class hover-shadow" src="images/photobooth8.JPG" onclick="openModal();currentSlide(1)" alt="Photo Booth" />
+        <div class="d-inline-flex crop-to-fit" data-target=”#carouselExample”>
+          <img class="photography-class hover-shadow" src="images/photobooth8.JPG" onclick="openModal();currentSlide(1)" alt="Photo Booth" />
           <!-- <img onclick="openModal();currentSlide(1)" class="photo-class" src="images/photobooth8.JPG" alt="Photo Booth" /> -->
         </div>
-        <div class="d-inline-flex" data-target=”#carouselExample”>
-          <img class="photo-class hover-shadow" src="images/photobooth5.jpg" onclick="openModal();currentSlide(2)" alt="Photo Booth" />
+        <div class="d-inline-flex crop-to-fit" data-target=”#carouselExample”>
+          <img class="photography-class hover-shadow" src="images/photobooth5.jpg" onclick="openModal();currentSlide(2)" alt="Photo Booth" />
           <!-- <img onclick="openModal();currentSlide(2)" class="photo-class" src="images/photobooth5.jpg" alt="Photo Booth" /> -->
         </div>
       </div>
 
       <!-- photo row -->
       <div class="d-flex">
-        <div class="d-inline-flex" data-target=”#carouselExample”>
-          <img class="photo-class hover-shadow" src="images/photobooth6.jpg" onclick="openModal();currentSlide(3)" alt="Photo Booth" />
+        <div class="d-inline-flex crop-to-fit" data-target=”#carouselExample”>
+          <img class="photography-class hover-shadow" src="images/photobooth6.jpg" onclick="openModal();currentSlide(3)" alt="Photo Booth" />
           <!-- <img onclick="openModal();currentSlide(3)" class="photo-class" src="images/photobooth6.JPG" alt="Photo Booth" /> -->
         </div>
-        <div class="d-inline-flex" data-target=”#carouselExample”>
-          <img class="photo-class hover-shadow" src="images/photobooth7.jpg" onclick="openModal();currentSlide(4)" alt="Photo Booth" />
+        <div class="d-inline-flex crop-to-fit" data-target=”#carouselExample”>
+          <img class="photography-class hover-shadow" src="images/photobooth7.jpg" onclick="openModal();currentSlide(4)" alt="Photo Booth" />
           <!-- <img onclick="openModal();currentSlide(4)" class="photo-class" src="images/photobooth7.jpg" alt="Photo Booth" /> -->
         </div>
       </div>
 
       <!-- photo row -->
-      <div class="d-flex">
-        <div class="d-inline-flex" data-target=”#carouselExample”>
-          <img class="photo-class hover-shadow" src="images/photobooth3.jpg" onclick="openModal();currentSlide(5)" alt="Photo Booth" />
+      <div class="d-flex hover-shadow" data-target=”#carouselExample”>
+<!--         <div class="d-inline-flex" data-target=”#carouselExample”> -->
+          <img class="photography-class-single-photo" src="images/photobooth3.jpg" onclick="openModal();currentSlide(5)" alt="Photo Booth" />
           <!-- <img onclick="openModal();currentSlide(5)" class="photo-class" src="images/photobooth3.JPG" alt="Photo Booth" /> -->
         </div>
       </div>
 
       <!-- photo row -->
       <div class="d-flex" data-target=”#carouselExample”>
-        <div class="d-inline-flex">
-          <img class="photo-class hover-shadow" src="images/photobooth9.JPG" onclick="openModal();currentSlide(6)" alt="Photo Booth" />
+        <div class="d-inline-flex crop-to-fit">
+          <img class="photography-class hover-shadow" src="images/photobooth9.JPG" onclick="openModal();currentSlide(6)" alt="Photo Booth" />
           <!-- <img onclick="openModal();currentSlide(6)" class="photo-class" src="images/photobooth9.JPG" alt="Photo Booth" /> -->
         </div>
-        <div class="d-inline-flex" data-target=”#carouselExample”>
-          <img class="photo-class hover-shadow" src="images/photobooth4.jpg" onclick="openModal();currentSlide(7)" alt="Photo Booth" />
+        <div class="d-inline-flex crop-to-fit" data-target=”#carouselExample”>
+          <img class="photography-class hover-shadow" src="images/photobooth4.jpg" onclick="openModal();currentSlide(7)" alt="Photo Booth" />
           <!-- <img onclick="openModal();currentSlide(7)" class="photo-class" src="images/photobooth4.jpg" alt="Photo Booth" /> -->
         </div>
       </div>
 
     </div>
+    </section>
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -185,8 +187,6 @@
         </div>
       </div>
     </div>
-
-  </section>
 
 
   <!-- Services Section -->
@@ -318,6 +318,7 @@
         <a class="btn btn-lg booking-button centered" href="entertainmentBooking.html">Check Pricing & Availability</a>
       </div>
     </div>
+    </section>
 
 
     <!-- Call to Action -->
@@ -345,7 +346,7 @@
         <p class="attribution">Services Icons: Icons8 https://icons8.com/ | Social Icons: FontAwesome Icons Copyright © 2018 by Fonticons, Inc. https://fontawesome.com/</p>
       </div>
     </section>
-
+    </div>
 </body>
 
 </html>
