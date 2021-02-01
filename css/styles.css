@@ -169,7 +169,7 @@ textarea {
 
 .dark-gray-section {
   background-color: #1A1A1A;
-  color: #white;
+  color: white;
 }
 
 .DJ-bio-emphasized-text {
@@ -467,7 +467,7 @@ textarea {
 
 .gray-section {
   background-color: #DDDDDD;
-  color: #black;
+  color: black;
 }
 
 .hair-icon {
@@ -552,6 +552,14 @@ textarea {
   padding: 8px;
   object-fit: cover;
   align-self: start;
+}
+
+.sixty-five{
+	width: 65%;
+}
+
+.thirth-five{
+	width: 35%;
 }
 
 .photography-class-single-photo {
@@ -922,7 +930,7 @@ textarea {
 
 /* attritbution footer */
 .white-section {
-  background-color: #white;
+  background-color: white;
 }
 
 .modal-dialog {
