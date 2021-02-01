@@ -737,15 +737,18 @@ img.hover-shadow {
   font-size: 40px; //bigger
 }
 
+.row-test{
+  display:flex;
+  width:478px;
+}
+
 .thirty-percent{
   width:30%;
-  max-height: 800px;
   display: flex;
 }
 
 .seventy-percent{
   width:70%;
-  max-height: 800px;
   display: flex;
 }
 
