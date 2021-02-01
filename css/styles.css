@@ -736,3 +736,21 @@ img.hover-shadow {
 .modal-header .close {
   font-size: 40px; //bigger
 }
+
+.thirty-percent{
+  width:30%;
+  max-height: 800px;
+  display: flex;
+}
+
+.seventy-percent{
+  width:70%;
+  max-height: 800px;
+  display: flex;
+}
+
+.test-pic{
+  object-fit:cover;
+  padding:8px;
+  width:100%;
+}
