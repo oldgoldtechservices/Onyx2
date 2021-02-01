@@ -13,6 +13,18 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+h1{
+  font-size:2.2rem;
+}
+
+h2{
+  font-size:1.8rem;
+}
+
+h3{
+  font-size: 1.3rem;
+}
+
 h5 {
   line-height: 2;
 }
@@ -24,8 +36,8 @@ hr {
 
 p {
   color: #black;
-  font-size: 1.5rem;
-  line-height: 2;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 /* Containers */
@@ -35,6 +47,49 @@ p {
 
 #photo .container-fluid {
   padding: 0%
+}
+
+.form-label{
+color: #black;
+font-size: 1.2rem;
+line-height: 2;
+font-weight:bold;
+margin-top:auto;
+margin-bottom:auto;
+}
+
+.form-label-not-checkbox{
+color: #black;
+font-size: 1.2rem;
+line-height: 2;
+font-weight:bold;
+margin-top:10px;
+}
+
+.checkbox-class{
+  margin-top:auto;
+  margin-bottom:auto;
+  margin-right:10px;
+}
+.not-checkbox{
+  width: 100%;
+  border-radius:4px;
+  margin-top:6px;
+  background-color:#DDDDDD;
+  border: 2px solid #ccc;
+  height: 40px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  /* padding: 12px 20px; */
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #DDDDDD;
+  resize: none;
+  margin-top:6px;
 }
 
 /* Home Page */
@@ -75,6 +130,7 @@ p {
   text-align:center;
   margin:auto;
 }
+
 .bold {
   font-weight: bold;
 }
@@ -84,7 +140,7 @@ p {
   background-color: #91D18B;
   /* background-color:#FF69B4; */
   font-family: 'Montserrat';
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -107,7 +163,7 @@ p {
 }
 
 .card-title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
@@ -119,9 +175,13 @@ p {
 .DJ-bio-emphasized-text {
   /* color: #587850; */
   color: #ff8585;
-  font-family: 'Indie Flower', cursive;
+  /* font-family: 'Indie Flower', cursive; */
+  /* font-family: 'Parisienne', cursive; */
+  font-family: 'Rochester', cursive;
   font-weight: bold;
   text-align: center;
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
 .dj-bio-photo {
@@ -149,7 +209,8 @@ p {
 }
 
 .DJ-name {
-  font-family: 'Indie Flower', cursive;
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Rochester', cursive;
 }
 
 .DJ-video {
@@ -159,13 +220,14 @@ p {
 
 .footer-dj {
   /* width:100%; */
-  height: 350px;
+  /* height: 350px; */
   text-align: center;
   background-image: url('../images/dance2.jpg');
   /* background-image: url('https://raw.githubusercontent.com/oldgoldtechservices/Onyx2/master/images/danceParty.jpg'); */
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% auto;
+  background-size: cover;
+  /* background-size: 100% auto; */
   /* padding-top: 25%; */
   padding-bottom: 25%;
 }
@@ -179,35 +241,92 @@ p {
 
 .footer-photobooth {
   /* width:100%; */
-  height: 350px;
+  /* height: 350px; */
   text-align: center;
   background-image: url('../images/photobooth11.JPG');
   /* background-image: url('https://raw.githubusercontent.com/oldgoldtechservices/Onyx2/master/images/danceParty.jpg'); */
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% auto;
+  background-size: cover;
+  /* background-size: 100% auto; */
   /* padding-top: 25%; */
   padding-bottom: 25%;
 }
 
 .footer-photography{
   /* width:100%; */
-  height: 350px;
+  /* height: 350px; */
   text-align: center;
   background-image: url('../images/photographer47.jpg');
   /* background-image: url('https://raw.githubusercontent.com/oldgoldtechservices/Onyx2/master/images/danceParty.jpg'); */
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% auto;
+  background-size: cover;
+  /* background-size: 100% auto; */
   /* padding-top: 25%; */
   padding-bottom: 25%;
 }
 
 .footer-photography-text {
-  color: #000000;
+  /* color: #000000; */
+  color: #ff8585;
   font-family: "Montserrat";
   font-weight: bold;
   /* text-align:center; */
+}
+
+.footer-videography{
+  /* width:100%; */
+  /* height: 600px; */
+  text-align: center;
+  background-image: url('../images/photographer47.jpg');
+  /* background-image: url('https://raw.githubusercontent.com/oldgoldtechservices/Onyx2/master/images/danceParty.jpg'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: 100% auto; */
+  background-size: cover;
+  /* padding-top: 25%; */
+  padding-bottom: 25%;
+}
+
+.footer-videography-text {
+  /* color: #000000; */
+  color: #ff8585;
+  font-family: "Montserrat";
+  font-weight: bold;
+  /* text-align:center; */
+}
+
+.green-section {
+  /* background-color: #91D18B; */
+  background-color: #587850;
+}
+
+.header-booking-text {
+  color: #91D18B;
+  font-size: 2rem;
+  font-weight:bold;
+  padding-top: 18%;
+  padding-bottom: 2%;
+}
+
+.header-construction {
+  /* width:100%; */
+  /* height: 350px; */
+  text-align: center;
+  background-image: url('../images/underConstruction.png');
+  /* background-image: url('https://raw.githubusercontent.com/oldgoldtechservices/Onyx2/master/images/danceParty.jpg'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 25%;
+  padding-bottom: 25%;
+}
+
+.header-construction-text {
+  color:#000000;
+  font-size: 2.5rem;
+  font-weight:bold;
 }
 
 .header-dj {
@@ -218,7 +337,8 @@ p {
   /* background-image: url('https://raw.githubusercontent.com/oldgoldtechservices/Onyx2/master/images/danceParty.jpg'); */
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% auto;
+  /* background-size: 100% auto; */
+  background-size: cover;
   padding-top: 25%;
   padding-bottom: 25%;
 }
@@ -226,7 +346,8 @@ p {
 .header-dj-text {
   /* color: #91D18B; */
   color: #ff8585;
-  font-family: 'Indie Flower', cursive;
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Rochester', cursive;
   font-size: 3.7rem;
   font-weight:bold;
 }
@@ -239,7 +360,8 @@ p {
   /* background-image: url('https://raw.githubusercontent.com/oldgoldtechservices/Onyx2/master/images/danceParty.jpg'); */
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% auto;
+  /* background-size: 100% auto; */
+  background-size: cover;
   padding-top: 25%;
   padding-bottom: 25%;
 }
@@ -247,7 +369,8 @@ p {
 .header-photobooth-text {
   /* color: #91D18B; */
   color: #ff8585;
-  font-family: 'Indie Flower', cursive;
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Rochester', cursive;
   font-size: 3.4rem;
   font-weight:bold;
 }
@@ -260,21 +383,48 @@ p {
   /* background-image: url('https://raw.githubusercontent.com/oldgoldtechservices/Onyx2/master/images/danceParty.jpg'); */
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% auto;
+  /* background-size: 100% auto; */
+  background-size: cover;
   padding-top: 25%;
   padding-bottom: 25%;
 }
 
 .header-photography-text {
-/*   color: #91D18B; */
+  /* color: #91D18B; */
   color: #ff8585;
-  font-family: 'Indie Flower', cursive;
+  /* font-family: 'Indie Flower', cursive; */
+  /* font-family: 'Parisienne', cursive; */
+  font-family: 'Rochester', cursive;
+  font-size: 3.2rem;
+  font-weight:bold;
+}
+
+.header-videography {
+  /* width:100%; */
+  height: 350px;
+  text-align: center;
+  background-image: url('../images/photographer7.jpg');
+  /* background-image: url('https://raw.githubusercontent.com/oldgoldtechservices/Onyx2/master/images/danceParty.jpg'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: 100% auto; */
+  background-size: cover;
+  padding-top: 25%;
+  padding-bottom: 25%;
+}
+
+.header-videography-text {
+  /* color: #91D18B; */
+  color: #ff8585;
+  /* font-family: 'Indie Flower', cursive; */
+  /* font-family: 'Parisienne', cursive; */
+  font-family: 'Rochester', cursive;
   font-size: 3.2rem;
   font-weight:bold;
 }
 
 .d-flex{
-  display:flex;
+  display:flex !important;
   overflow:hidden;
   width:100%;
   min-width:100%;
@@ -340,11 +490,12 @@ p {
   /* width:100%; */
   height: 350px;
   text-align: center;
-/*   background-image: url('../images/OEwhitebackground.png'); */
-  background-image: url('https://raw.githubusercontent.com/oldgoldtechservices/Onyx2/master/images/OEwhiteBackground.png');
+  background-image: url('../images/OEwhitebackground.png');
+  /* background-image: url('https://raw.githubusercontent.com/oldgoldtechservices/Onyx2/master/images/OEwhiteBackground.png'); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;
+  /* background-size: cover; */
 }
 
 .image-85 {
@@ -410,6 +561,38 @@ p {
   object-fit:cover;
 }
 
+.row-test{
+  display:flex;
+  width:478px;
+}
+
+.thirty-percent{
+  width:30%;
+  display: flex;
+}
+
+.seventy-percent{
+  width:70%;
+  display: flex;
+}
+
+.test-pic{
+  object-fit:cover;
+  padding:8px;
+  width:100%;
+}
+
+.package-card{
+  width:100%;
+}
+
+.card-photo {
+  /* max-height:180px; */
+  height:100%;
+  width:100%;
+  padding:8px;
+}
+
 .photobooth-icon {
   /* width:100%; */
   height: 100px;
@@ -436,6 +619,12 @@ p {
   margin: auto;
 }
 
+.videographer-bio-photo {
+  height: 350px;
+  border: 10px solid #DDDDDD;
+  margin: auto;
+}
+
 .photography-icon {
   /* width:100%; */
   height: 100px;
@@ -451,6 +640,41 @@ p {
   background-image: url('https://img.icons8.com/pastel-glyph/100/587850/compact-camera.png');
 }
 
+.photography-list{
+  font-size: 1.2rem;
+  text-align: left;
+  list-style: none; /*remove default bullets*/
+}
+
+.photography-list-element{
+  padding-bottom:3%;
+  /* color: #587850; */
+}
+
+.photography-list-element::before {
+  /* content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  content: "\27A4"; /*CSS code/unicode for an arrow*/
+  /* color: #91D18B; */
+  color: #587850;
+  font-size: 1.5rem;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.price-text {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  padding-left:3%;
+  padding-right:3%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align:center;
+}
+
 .services-icon:hover {
   color: white;
 }
@@ -461,6 +685,11 @@ p {
 
 .text-link {
   color: #9CB392;
+  font-weight: bold;
+}
+
+.text-link-construction{
+  color: #587850;
   font-weight: bold;
 }
 
@@ -554,9 +783,18 @@ p {
   background-size: 100% auto;
 }
 
-/* This class centers the picture of the recording studio */
+.card.bg-light {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .centered {
   margin: 0 auto 0 auto;
+}
+
+.paragraph-padding{
+  padding-left:2%;
+  padding-right:2%;
 }
 
 .colored-section {
@@ -738,23 +976,7 @@ img.hover-shadow {
   font-size: 40px; //bigger
 }
 
-.row-test{
-  display:flex;
-  width:478px;
-}
-
-.thirty-percent{
-  width:30%;
-  display: flex;
-}
-
-.seventy-percent{
-  width:70%;
-  display: flex;
-}
-
-.test-pic{
-  object-fit:cover;
-  padding:8px;
-  width:100%;
+input[type=checkbox] {
+    transform: scale(1.5);
+    vertical-align:middle;
 }
