@@ -400,7 +400,6 @@ p {
   max-width: 100%;
   padding: 8px;
   object-fit: cover;
-  height: -webkit-fill-available;
 }
 
 .photography-class-single-photo {
