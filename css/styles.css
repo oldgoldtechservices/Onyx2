@@ -562,6 +562,19 @@ textarea {
 	width: 35%;
 }
 
+.crop-to-fit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.crop-to-fit img {
+  flex-shrink:0;
+  min-width:100%;
+  min-height:100%
+}
+
 .photography-class-single-photo {
   height:100%;
   width:100%;
@@ -576,12 +589,10 @@ textarea {
 
 .thirty-percent{
   width:30%;
-  display: flex;
 }
 
 .seventy-percent{
   width:70%;
-  display: flex;
 }
 
 .test-pic{
