@@ -767,13 +767,21 @@ textarea {
   background-size: 100% auto;
 }
 
-.nav-item {
+/* .nav-item {
   font-size: 30px;
+} */
+
+.service-link{
+  font-size: 24px;
 }
 
-.nav-link {
-  font-size: 30px;
+.menu-text-large{
+  font-size:30px;
 }
+
+/* .nav-link {
+  font-size: 30px;
+} */
 
 .navbar {
   background: rgba(2, 2, 2, 0.8);
